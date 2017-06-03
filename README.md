@@ -12,7 +12,7 @@ Requirements
 Using this template to create a new Django app is easy::
 
     $ pip install django
-    $ django-admin.py startproject --template=https://github.com/bahattincinic/heroku-django-template/archive/master.zip --name=Procfile helloworld
+    $ django-admin.py startproject --template=https://github.com/bahattincinic/heroku-django-template/archive/master.zip --name=Procfile helloworld --extension=py,md,html
 
 
 ## Deployment to Heroku
