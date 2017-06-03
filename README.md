@@ -6,6 +6,7 @@ Project starter template for Django 1.11
 
 Using this template to create a new Django app is easy::
 
+    $ pip install django
     $ django-admin.py startproject --template=https://github.com/bahattincinic/heroku-django-template/archive/master.zip --name=Procfile helloworld
 
 ## Deployment to Heroku
