@@ -13,7 +13,7 @@ path.insert(2, project_root)
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+(9lj)2s43+awydvdx57wav)lmc5-eq=ye=fh_6_1ghylrgtc-'
+SECRET_KEY = '{{ secret_key }}'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
