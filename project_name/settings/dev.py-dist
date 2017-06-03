@@ -1,0 +1,22 @@
+from .base import *
+
+
+DEBUG = True
+
+INTERNAL_IPS = ['127.0.0.1', '::1']
+
+INSTALLED_APPS += (
+    'django_extensions',
+    'debug_toolbar',
+)
+
+
+MIDDLEWARE += [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+]
+
+DEBUG_TOOLBAR_CONFIG = {
+    'DISABLE_PANELS': set(['debug_toolbar.panels.redirects.RedirectsPanel']),
+}
+
+EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
